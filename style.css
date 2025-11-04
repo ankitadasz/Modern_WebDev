@@ -24,6 +24,9 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.nav h4{
+    font-size: small;
+}
 .heading {
   text-transform: uppercase;
   margin: 90px;
@@ -53,4 +56,39 @@ body {
     font-size: 0.8vw;
     line-height: 1.5;
 }
+.footer{
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 0.8vw;
+    position: absolute;
+    bottom: 0;
+}
+.footer a i{
+    font-size: 1.2vw;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footerlogo{
+    display: flex; 
+    gap: 5px; 
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #6b6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
